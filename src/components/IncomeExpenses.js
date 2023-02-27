@@ -2,7 +2,7 @@ import React from "react";
 
 export const IncomeExpenses = () => {
   return (
-    <div>
+    <>
       <div className="inc-exp-container">
         <div>
           <h4>Income</h4>
@@ -13,6 +13,6 @@ export const IncomeExpenses = () => {
           <p className="money minus">-$0.00</p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
